@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="41265" started-at="2018-12-04T12:37:01Z" finished-at="2018-12-04T12:37:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="41265" started-at="2018-12-04T12:37:01Z" finished-at="2018-12-04T12:37:42Z">
+      <class name="com.google.tests.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.google.tests.LoginTest@3bfdc050]" name="setup" is-config="true" duration-ms="21212" started-at="2018-12-04T18:07:01Z" finished-at="2018-12-04T18:07:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginGmailTest()[pri:0, instance:com.google.tests.LoginTest@3bfdc050]" name="loginGmailTest" duration-ms="17610" started-at="2018-12-04T18:07:22Z" finished-at="2018-12-04T18:07:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginGmailTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.tests.LoginTest@3bfdc050]" name="tearDown" is-config="true" duration-ms="2395" started-at="2018-12-04T18:07:40Z" finished-at="2018-12-04T18:07:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.google.tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
