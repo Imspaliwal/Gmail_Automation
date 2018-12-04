@@ -19,7 +19,7 @@ public class BaseClass {
 		
 		try {
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream("C:\\eclipse-workspace\\Gmail\\src\\main\\java\\com\\google\\config\\config.properties");
+			FileInputStream ip = new FileInputStream("C:\\eclipse-workspace\\Gmail_Automation\\src\\main\\java\\com\\google\\config\\config.properties");
 			prop.load(ip);
 			
 		} catch (IOException e) {

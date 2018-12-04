@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="41265" started-at="2018-12-04T12:37:01Z" finished-at="2018-12-04T12:37:42Z">
+  <suite name="Default suite" duration-ms="45015" started-at="2018-12-04T18:00:06Z" finished-at="2018-12-04T18:00:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="41265" started-at="2018-12-04T12:37:01Z" finished-at="2018-12-04T12:37:42Z">
+    <test name="Default test" duration-ms="45015" started-at="2018-12-04T18:00:06Z" finished-at="2018-12-04T18:00:51Z">
       <class name="com.google.tests.LoginTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.google.tests.LoginTest@3bfdc050]" name="setup" is-config="true" duration-ms="21212" started-at="2018-12-04T18:07:01Z" finished-at="2018-12-04T18:07:22Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.google.tests.LoginTest@3bfdc050]" name="setup" is-config="true" duration-ms="11802" started-at="2018-12-04T23:30:06Z" finished-at="2018-12-04T23:30:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginGmailTest()[pri:0, instance:com.google.tests.LoginTest@3bfdc050]" name="loginGmailTest" duration-ms="17610" started-at="2018-12-04T18:07:22Z" finished-at="2018-12-04T18:07:40Z">
+        <test-method status="PASS" signature="loginGmailTest()[pri:0, instance:com.google.tests.LoginTest@3bfdc050]" name="loginGmailTest" duration-ms="32893" started-at="2018-12-04T23:30:18Z" finished-at="2018-12-04T23:30:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginGmailTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.tests.LoginTest@3bfdc050]" name="tearDown" is-config="true" duration-ms="2395" started-at="2018-12-04T18:07:40Z" finished-at="2018-12-04T18:07:42Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.tests.LoginTest@3bfdc050]" name="tearDown" is-config="true" duration-ms="294" started-at="2018-12-04T23:30:51Z" finished-at="2018-12-04T23:30:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

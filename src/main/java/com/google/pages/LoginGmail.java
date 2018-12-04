@@ -13,9 +13,6 @@ public class LoginGmail extends BaseClass {
 	/**
 	 * Google login web elements
 	 */
-
-	@FindBy(linkText="Gmail")
-	public WebElement gamilLink;
 	
 	@FindBy(linkText="Sign in")
 	public WebElement signInLink;
@@ -31,6 +28,12 @@ public class LoginGmail extends BaseClass {
 	
 	@FindBy(id="passwordNext")
 	public WebElement nextSubmit;
+	
+	@FindBy(className="gb_b gb_hc")
+	public WebElement googleApps;
+	
+	@FindBy(linkText="Gmail")
+	public WebElement gamilLink;
 	
 	//initiate web elements
 	public LoginGmail(){
@@ -50,6 +53,8 @@ public class LoginGmail extends BaseClass {
 		
 		password.sendKeys("19938109597386");
 		nextSubmit.click();
+		
+		gamilLink.click();
 		
 		return new GmailHome();
 	}
