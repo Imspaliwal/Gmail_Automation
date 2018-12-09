@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.google.tests.LoginTest">
+      <class name="com.google.tests.ComposeMailTest">
         <methods>
-          <include name="tearDown"/>
+          <include name="composeMailTest"/>
           <include name="setup"/>
-          <include name="loginGmailTest"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.google.tests.LoginTest -->
+      </class> <!-- com.google.tests.ComposeMailTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

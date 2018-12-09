@@ -51,9 +51,10 @@ public class LoginGmail extends BaseClass {
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.refreshed(ExpectedConditions.elementToBeClickable(password)));
 		
-		password.sendKeys("19938109597386");
+		password.sendKeys("1234");
 		nextSubmit.click();
 		
+		wait.until(ExpectedConditions.elementToBeClickable(gamilLink));
 		gamilLink.click();
 		
 		return new GmailHome();
